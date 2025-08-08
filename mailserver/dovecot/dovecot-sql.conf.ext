@@ -143,7 +143,7 @@
 # Query to get a list of all usernames.
 #iterate_query = SELECT username AS user FROM users
 driver = mysql
-connect = host=10.211.55.1 dbname=mail_user user=tamtanbk62 password=tung12341
+connect = host=mail_user_database dbname=mail_user user=tamtanbk62 password=tung12341
 
 default_pass_scheme = SHA512-CRYPT
 

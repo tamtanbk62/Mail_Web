@@ -12,7 +12,8 @@ const startMailWatcher = async (email, password, io) => {
       host: process.env.MAILSERVER_HOST,
       port: 143,
       tls: false,
-      authTimeout: 3000
+      authTimeout: 3000,
+      tlsOptions: { rejectUnauthorized: false }
     }
   };
 

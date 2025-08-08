@@ -81,7 +81,7 @@ const accessToken = localStorage.getItem('accessToken')
 const email = localStorage.getItem('userEmail')
 const password = localStorage.getItem('userPassword')
 
-const socket = io(api.API_BASE_URL)
+const socket = io(import.meta.env.VITE_API_BASE_URL)
 
 const filteredInbox = computed(() => {
   if (!search.value.trim()) return inbox.value

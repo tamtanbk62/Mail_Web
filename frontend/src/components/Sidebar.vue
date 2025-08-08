@@ -32,6 +32,7 @@
 </template>
 
 <script>
+import { disconnectSocket } from '@/services/socket.js'
 export default {
   data() {
     return {
@@ -62,6 +63,7 @@ export default {
       localStorage.removeItem("accessToken");
       localStorage.removeItem("userEmail");
       localStorage.removeItem("userPassword");
+      disconnectSocket()
       this.$router.push("/login");
     }
   }

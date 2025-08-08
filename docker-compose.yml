@@ -30,10 +30,10 @@ services:
     container_name: mail_user_database
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: tung12341
+      MYSQL_DATABASE: mail_user
+      MYSQL_USER: tamtanbk62
+      MYSQL_PASSWORD: tung12341
     volumes:
       - ./mysql-data:/var/lib/mysql
     ports:

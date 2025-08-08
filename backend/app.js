@@ -13,6 +13,7 @@ const io = socketio(server, {
   }
 });
 
+
 app.use(express.json());
 
 const cors = require('cors')
@@ -25,6 +26,7 @@ io.on('connection', (socket) => {
   console.log('Client connected via socket');
 
   socket.on('start-watch', ({ email, password }) => {
+    console.log('Start watch event received:', email);
     startMailWatcher(email, password, io);
   });
 });

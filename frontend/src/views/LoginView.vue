@@ -1,9 +1,9 @@
 <template>
     <div class="login-container">
         <div class="login-box">
-            <h1 class="login-title">Welcome to MyMail</h1>
-            <p class="login-subtitle">Login using your LaoID account</p>
-            <button id="laoid-signin" class="login-btn">🔐 Login with LaoID</button>
+            <h1 class="login-title">Chào mừng đến với GGMail</h1>
+            <p class="login-subtitle">Đăng nhập bằng tài khoản LaoID</p>
+            <button id="laoid-signin" class="login-btn">🔐 Đăng nhập với LaoID</button>
         </div>
     </div>
 </template>

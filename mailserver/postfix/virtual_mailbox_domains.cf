@@ -1,5 +1,5 @@
 user = tamtanbk62
 password = tung12341
-hosts = 10.211.55.1
+hosts = mail_user_database
 dbname = mail_user
 query = SELECT 1 FROM virtual_domains WHERE name='%s'
