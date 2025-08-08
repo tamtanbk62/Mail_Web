@@ -1,0 +1,17 @@
+.env
+backend/.env
+frontend/.env
+
+#dependencies
+backend/node_modules/
+frontend/node_modules/
+
+#volumes
+mail-data/
+mail-logs/
+mysql-data/
+mysql-backup.sql
+
+*.log
+
+.DS_Store
